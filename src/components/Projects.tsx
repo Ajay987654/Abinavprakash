@@ -8,49 +8,18 @@ const Projects: React.FC = () => {
       description: "A full-stack e-commerce application with user authentication, payment processing, and admin dashboard. Built with React, Node.js, and MongoDB.",
       image: "https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "Node.js", "MongoDB", "Stripe", "JWT"],
-      liveLink: "https://aura-ecommerce-design.lovable.app/",
-      githubLink: "https://github.com/abinavprakash2301/aura-ecommerce-design.git"
+      liveLink: "https://apshopping.vercel.app/",
+      githubLink: "https://github.com/abinavprakash2301/aura-ecommerce-vibe-shop"
     },
     {
       title: "Task Management App",
       description: "A collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.",
       image: "https://images.pexels.com/photos/3184306/pexels-photo-3184306.jpeg?auto=compress&cs=tinysrgb&w=800",
       technologies: ["React", "Firebase", "Material-UI", "Socket.io"],
-      liveLink: "#",
-      githubLink: "#"
+      liveLink: "https://taskapp-lyart.vercel.app/",
+      githubLink: "https://github.com/abinavprakash2301/elegant-task-space"
     },
-    {
-      title: "Weather Dashboard",
-      description: "A responsive weather application that provides current weather data and forecasts using OpenWeatherMap API with beautiful data visualizations.",
-      image: "https://images.pexels.com/photos/209831/pexels-photo-209831.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["JavaScript", "Chart.js", "OpenWeather API", "CSS3"],
-      liveLink: "#",
-      githubLink: "#"
-    },
-    {
-      title: "Social Media Dashboard",
-      description: "An analytics dashboard for social media management with data visualization, post scheduling, and engagement tracking capabilities.",
-      image: "https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "TypeScript", "D3.js", "Express.js"],
-      liveLink: "#",
-      githubLink: "#"
-    },
-    {
-      title: "Blog Platform",
-      description: "A modern blog platform with markdown support, comment system, and SEO optimization. Features include rich text editing and responsive design.",
-      image: "https://images.pexels.com/photos/261662/pexels-photo-261662.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["Next.js", "PostgreSQL", "Prisma", "Tailwind CSS"],
-      liveLink: "#",
-      githubLink: "#"
-    },
-    {
-      title: "Portfolio Website",
-      description: "A responsive portfolio website showcasing projects and skills with smooth animations, contact form, and optimized performance.",
-      image: "https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Framer Motion"],
-      liveLink: "#",
-      githubLink: "#"
-    }
+    
   ];
 
   return (
